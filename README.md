@@ -11,7 +11,7 @@ Healthy breakfast and dinner suggestions
 Useful snacks, supplements, and hydration tips
 Simple and user-friendly web interface
 AI-powered responses using Gemini API
----
+
 # How It Works
 
 User enters:
@@ -34,14 +34,14 @@ Gemini AI model processes the input and generates:
 
 # Project Structure
 
-  ├── app.py                # Flask backend with Gemini AI integration
-  ├── templates/
-  │   ├── index.html        # User input form
-  │   └── suggestion_page.html  # Recommendation display page
-  ├── static/
-  │   ├── style.css         # Styling
-  │   └── image.png         # Project logo
-  ├── README.md
+    ├── app.py                # Flask backend with Gemini AI integration
+    ├── templates/
+    │   ├── index.html        # User input form
+    │   └── suggestion_page.html  # Recommendation display page
+    ├── static/
+    │   ├── style.css         # Styling
+    │   └── image.png         # Project logo
+    ├── README.md
 
 # Technologies Used
 
