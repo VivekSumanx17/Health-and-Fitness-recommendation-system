@@ -3,7 +3,7 @@
 This project is a web-based health and fitness recommendation system that provides personalized diet and workout plans based on user inputs such as dietary preferences, fitness goals, health conditions, and restrictions.
 It uses Google Gemini AI for intelligent recommendations and Flask for the web interface.
 
-#Features
+# Features
 
 Personalized diet recommendations
 Customized workout plans
@@ -11,8 +11,8 @@ Healthy breakfast and dinner suggestions
 Useful snacks, supplements, and hydration tips
 Simple and user-friendly web interface
 AI-powered responses using Gemini API
-
-#How It Works
+---
+# How It Works
 
 User enters:
 
