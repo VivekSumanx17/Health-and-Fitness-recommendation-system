@@ -42,9 +42,11 @@ def generate_recommendation(dietary_preferences, fitness_goal, dietary_restricti
         Any useful snacks, supplements, or hydration tips tailored to their profile in short and user friendly language.
         mentain this sequence diet types ,workouts, breakfast, dinner, usefull snacks, supplement, hydration tips.
         """
-
-    response = model.generate_content(prompt)
-    return response.text if response else "No response from the model."
+    try:
+        response = model.generate_content(prompt)
+        return response.text if response else "No response from the model."
+    except Exception as e:
+        return "API quota reached. Please try again later."
 
 
 
